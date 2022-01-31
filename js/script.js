@@ -1,3 +1,4 @@
+console.log("Moja strona dla praktyki po 3 tygodniach nauki c :");
 let button = document.querySelector(".button");
 let themeName = document.querySelector(".themeName");
 let body = document.querySelector(".body")
