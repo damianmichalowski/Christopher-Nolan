@@ -44,5 +44,3 @@ buttonFatterLetters.addEventListener("click", () => {
         fatnessName.innerText = "Pogrub";
     }
 })
-
-console.log(button);
