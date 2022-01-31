@@ -1,0 +1,235 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.all {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: 0 15%;
+    padding: 20px;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.17);
+    font-weight: 400;
+    text-align: justify;
+    
+}
+
+.biggerLetters {
+    font-size: 20px;
+}
+
+.fatterLetters {
+    font-weight: 700;
+}
+
+
+.body{
+    background-color: white;
+}
+
+.dark {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+
+.nav {
+    
+    border-bottom: 2px solid rgb(0, 153, 255);
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    padding: 0 40px;
+    font-size: 20px;
+
+
+}
+
+.link:hover {
+    color: darkblue;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: black;
+}
+
+.linkInText {
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+.linkInText:hover {
+    color: rgb(60, 177, 255);
+}
+
+.containerTable {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.tableCell {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.captionBottom {
+    text-align: right;
+    margin-top: 5px;
+    caption-side: bottom;
+}
+
+
+.tableRow:nth-child(even) {
+    background-color: rgba(230, 230, 230, 0.315);
+}
+
+.tableRow:hover {
+    background-color: rgba(179, 179, 179, 0.431);
+}
+
+
+
+.list {
+    padding-left: 35px;
+}
+
+.listItem {
+    margin: 10px 0;
+}
+
+.images {
+    text-align: center;
+}
+
+.footer {
+    margin: 15px;
+    border-top: 2px solid rgb(0, 153, 255);
+    text-align: center;
+}
+
+.backNav {
+    padding: 10px;
+    
+    border: 1px solid rgba(0, 153, 255, 0.739);
+}
+
+.backNav:hover {
+    background-color: rgb(211, 211, 211);
+    border-bottom: 0px solid white;
+}
+
+.button {
+    color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: rgb(49, 92, 185);
+    color: white;
+}
+
+.buttonBiggerLetters {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.buttonBiggerLetters:hover {
+
+    background-color: rgb(47, 47, 47);
+    color: white;
+
+}
+
+.buttonFatterLetters {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.buttonFatterLetters:hover {
+
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.navList {
+    padding-top: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+
+.options{
+    text-align: center;
+    padding:20px;
+}
+
+.personalData{
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+
+.funFactsList{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.biography{
+    margin-top:50px;
+    margin-bottom:50px;
+}
