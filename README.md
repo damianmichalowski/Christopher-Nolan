@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://damian178.github.io/Christopher-Nolan/
+https://damianmichalowski.github.io/Christopher-Nolan/
 
 ## Description 
 
